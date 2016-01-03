@@ -1,6 +1,6 @@
 /* app css stylesheet */
 html{
-  margin-top: 51px;
+  margin-top: 70px;
 }
 
 .templates{
@@ -16,4 +16,7 @@ html{
   width: 50%;
   margin: auto;
   text-align: center;
+}
+footer{
+	margin-top: 50px;
 }

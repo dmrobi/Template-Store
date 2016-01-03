@@ -29,7 +29,7 @@ angular.module('templateStore.templates', ['ngRoute'])
 			$scope.template = $filter('filter')(result, function(data){
 				return data.id == templateId;
 			})[0];
-			$scope.mainImage = $scope.template.images[templateId-1].name;
+			$scope.mainImage = $scope.template.images[templateId - 1].name;
 		});
 
 	$scope.setImage = function(image){
