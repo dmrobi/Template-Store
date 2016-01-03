@@ -1,5 +1,10 @@
+<div class="row text-center">
+	<hr>
+	Search Template: <input type="text" ng-model="searchTemplate">
+	<hr>
+</div>
 <div class="row templates">
-	<div ng-repeat="template in templates">
+	<div ng-repeat="template in templates | filter:searchTemplate">
 		<div class="col-md-3">
 			<h3>{{template.name}}</h3>
 			<a href="#templates/{{template.id}}"><img src="img/{{template.images[template.id-1].name}}"></a>
