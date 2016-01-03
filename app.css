@@ -1,0 +1,19 @@
+/* app css stylesheet */
+html{
+  margin-top: 51px;
+}
+
+.templates{
+  text-align: center;
+}
+.templates img{
+  width: 70%;
+}
+.img-full{
+	width: 100%;
+}
+.templates a{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
